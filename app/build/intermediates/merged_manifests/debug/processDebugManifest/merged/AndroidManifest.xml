@@ -14,6 +14,7 @@
     <uses-feature
         android:name="android.hardware.camera.any"
         android:required="true" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -28,19 +29,39 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.fypic.imageclassification.SummaryActivity" />
-        <activity android:name="com.fypic.imageclassification.EditActivity" />
-        <activity android:name="com.fypic.imageclassification.ListActivity" />
-        <activity android:name="com.fypic.imageclassification.MainActivityLogged" />
-        <activity android:name="com.fypic.imageclassification.ActLActivity" />
-        <activity android:name="com.fypic.imageclassification.MainActivity" >
+        <activity
+            android:name="com.fypic.imageclassification.SummaryActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.EditActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.ListActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.MainActivityLogged"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.ActLActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.fypic.imageclassification.Classify" /> <!-- cropping activity -->
+        <activity
+            android:name="com.fypic.imageclassification.Classify"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" /> <!-- cropping activity -->
         <activity
             android:name="com.soundcloud.android.crop.CropImageActivity"
             android:screenOrientation="portrait" />

@@ -202,7 +202,7 @@ public class Classify extends AppCompatActivity {
             Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
             selected_image.setImageBitmap(bitmap);
             // not sure why this happens, but without this the image appears on its side
-            selected_image.setRotation(selected_image.getRotation() + 90);
+            selected_image.setRotation(selected_image.getRotation() + 0);
         } catch (IOException e) {
             e.printStackTrace();
         }

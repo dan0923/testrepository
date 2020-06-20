@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\b49f81c5095a6e700c12192359e10dc7\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\7266ea587dda51fe69da0ff817954fee\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\e2d92e42fd04c3e0a08b54583706b599\AndroidManifest.xml:2:1-11:12
@@ -40,22 +40,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mdsha\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\745e792715cb390e24552ae12385caa8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\f4b9c330bcddbcd5ee9035800c00611e\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\41861ab773115079d7993d583875363e\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:4:5-44
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:1-59:12
 		INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,16 +71,20 @@ ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fim
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:11:9-32
 	android:name
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:10:9-51
+uses-feature#android.hardware.screen.portrait
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:12:5-13:59
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:13:9-56
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:13:5-81
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:13:22-78
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:14:5-65
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:16:5-65
 	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:14:22-62
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:16:22-62
 application
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:16:5-41:19
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:18:5-56:19
 MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\b49f81c5095a6e700c12192359e10dc7\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0-rc01] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\b49f81c5095a6e700c12192359e10dc7\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\e2d92e42fd04c3e0a08b54583706b599\AndroidManifest.xml:9:5-20
@@ -92,66 +96,92 @@ MERGED from [androidx.core:core:1.1.0] C:\Users\mdsha\.gradle\caches\transforms-
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\d8ed7c0876ce07ab3e610ec8a01ed3fe\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\d8ed7c0876ce07ab3e610ec8a01ed3fe\AndroidManifest.xml:24:5-25:19
 	android:supportsRtl
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:22:9-35
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:24:9-35
 	android:label
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:22:9-41
 	android:appComponentFactory
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:18:9-53
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:20:9-53
 		REJECTED from [androidx.core:core:1.1.0] C:\Users\mdsha\.gradle\caches\transforms-2\files-2.1\29b198f8e9888b8b00e9ab90143c54c3\AndroidManifest.xml:24:18-86
 	android:roundIcon
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:21:9-54
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:23:9-54
 	android:icon
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:23:9-40
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:25:9-40
 	tools:replace
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:24:9-52
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:26:9-52
 activity#com.fypic.imageclassification.SummaryActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:25:9-53
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:27:9-29:51
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:28:13-45
 	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:25:19-50
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:27:19-50
 activity#com.fypic.imageclassification.EditActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:26:9-50
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:26:19-47
-activity#com.fypic.imageclassification.ListActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:27:9-50
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:27:19-47
-activity#com.fypic.imageclassification.MainActivityLogged
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:28:9-56
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:28:19-53
-activity#com.fypic.imageclassification.ActLActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:29:9-50
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:29:19-47
-activity#com.fypic.imageclassification.MainActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:30:9-36:20
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:30:9-32:51
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:32:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:31:13-45
 	android:name
 		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:30:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:31:13-35:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:32:17-69
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:32:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:34:17-77
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:34:27-74
-activity#com.fypic.imageclassification.Classify
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:37:9-46
-	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:37:19-43
-activity#com.soundcloud.android.crop.CropImageActivity
-ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:38:9-40:52
+activity#com.fypic.imageclassification.ListActivity
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:33:9-35:51
 	android:screenOrientation
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:40:13-49
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:35:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
-		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:39:13-73
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:33:19-47
+activity#com.fypic.imageclassification.MainActivityLogged
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:36:9-38:51
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.fypic.imageclassification.ActLActivity
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:39:9-41:51
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:39:19-47
+activity#com.fypic.imageclassification.MainActivity
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:42:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:47:27-74
+activity#com.fypic.imageclassification.Classify
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:50:9-52:51
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:50:19-43
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml:54:13-73
 uses-sdk
 INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mdsha\OneDrive\Documents\School Stuff\C346\Workspace\FYP\fimageclassificationv2\app\src\main\AndroidManifest.xml

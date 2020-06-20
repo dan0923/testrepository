@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jun 20 15:07:16 SGT 2020
+#Sat Jun 20 15:28:41 SGT 2020
 7.path=lib/armeabi-v7a/libtensorflowlite_jni.so
 2.base=C\:\\Users\\mdsha\\OneDrive\\Documents\\School Stuff\\C346\\Workspace\\FYP\\fimageclassificationv2\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 5.set=NATIVE_RESOURCE
