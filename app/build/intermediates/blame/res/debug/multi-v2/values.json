@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\fimageclassificationv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\fypproject\\fimageclassificationv3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\3382146324a715cee4fbde2c479d2d82\\res\\values\\values.xml",
@@ -39,23 +39,6 @@
                         "endLines": "417,424,435,1753,1758",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "23725,24110,24707,106573,106843"
-                    }
-                },
-                {
-                    "source": "D:\\fimageclassificationv2\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3,6",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "157,57,105,206",
-                        "endColumns": "45,46,50,52",
-                        "endOffsets": "198,99,151,254"
-                    },
-                    "to": {
-                        "startLines": "193,194,195,221",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "10026,10072,10119,11835",
-                        "endColumns": "45,46,50,52",
-                        "endOffsets": "10067,10114,10165,11883"
                     }
                 },
                 {
@@ -116,7 +99,7 @@
                     }
                 },
                 {
-                    "source": "D:\\fimageclassificationv2\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\fypproject\\fimageclassificationv3\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -130,6 +113,42 @@
                         "startOffsets": "144256",
                         "endColumns": "51",
                         "endOffsets": "144303"
+                    }
+                },
+                {
+                    "source": "D:\\fypproject\\fimageclassificationv3\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "157,57,105,206",
+                        "endColumns": "45,46,50,52",
+                        "endOffsets": "198,99,151,254"
+                    },
+                    "to": {
+                        "startLines": "193,194,195,221",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "10026,10072,10119,11835",
+                        "endColumns": "45,46,50,52",
+                        "endOffsets": "10067,10114,10165,11883"
+                    }
+                },
+                {
+                    "source": "D:\\fypproject\\fimageclassificationv3\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "415"
+                    },
+                    "to": {
+                        "startLines": "2383",
+                        "startColumns": "4",
+                        "startOffsets": "147270",
+                        "endLines": "2388",
+                        "endColumns": "12",
+                        "endOffsets": "147582"
                     }
                 },
                 {
@@ -204,25 +223,6 @@
                         "startOffsets": "139656,139986,140125,140172,140227,141109,141163,141215,141264,141325",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "139691,140024,140167,140222,140267,141158,141210,141259,141320,141370"
-                    }
-                },
-                {
-                    "source": "D:\\fimageclassificationv2\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "98",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "415"
-                    },
-                    "to": {
-                        "startLines": "2383",
-                        "startColumns": "4",
-                        "startOffsets": "147270",
-                        "endLines": "2388",
-                        "endColumns": "12",
-                        "endOffsets": "147582"
                     }
                 },
                 {

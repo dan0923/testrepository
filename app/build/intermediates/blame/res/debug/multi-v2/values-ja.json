@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\fimageclassificationv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "D:\\fypproject\\fimageclassificationv3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\b18b62554ffaa459ce3dc17c3b68780f\\res\\values-ja\\values-ja.xml",

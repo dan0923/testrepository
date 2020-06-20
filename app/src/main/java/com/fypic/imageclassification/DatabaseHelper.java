@@ -19,7 +19,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String sqlUsers = "CREATE TABLE user_admin(user_id INTEGER PRIMARY KEY AUTOINCREMENT, user_name VARCHAR NOT NULL, user_password VARCHAR NOT NULL);";
-        String sqlObjects = "CREATE TABLE objects(object_id INTEGER PRIMARY KEY AUTOINCREMENT, material_id INTEGER NOT NULL, FOREIGN KEY(material_id) REFERENCES material(material_id));";
+        String sqlObjects = "CREATE TABLE objects(object_id INTEGER PRIMARY KEY AUTOINCREMENT, material_id INTEGER NOT NULL, object_date DATE NOT NULL, FOREIGN KEY(material_id) REFERENCES material(material_id));";
         String sqlMaterial = "CREATE TABLE material(material_id INTEGER PRIMARY KEY AUTOINCREMENT, material_name VARCHAR NOT NULL);";
 
         String addMaterialMetal = String.format("INSERT INTO material(material_name) VALUES (\"Metal\")");
@@ -66,11 +66,29 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         Cursor cursor = database.rawQuery(selectQuery, null);
         cursor.moveToFirst();
         int id = cursor.getInt(cursor.getColumnIndex("material_id"));
-
         contentValues.put("material_id", id);
+        contentValues.put("object_date", getDateNow());
         db.insert("objects", null, contentValues);
         db.close();
         return true;
+    }
+
+    public Cursor getDataByDate(String date) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String query = String.format("SELECT object_id, material_id FROM objects WHERE object_date=\"%s\";", date);
+        Cursor data = db.rawQuery(query, null);
+        return data;
+    }
+
+    public String getDateNow() {
+        SQLiteDatabase db = getWritableDatabase();
+        String selectQuery = "SELECT date('now');";
+        Cursor cursor = db.rawQuery(selectQuery, null);
+        String date = null;
+        if(cursor.moveToFirst()){
+            date = cursor.getString(0);
+        }
+        return date;
     }
 
     public Cursor getData(){

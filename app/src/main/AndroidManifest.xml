@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".SummaryActivity"></activity>
+        <activity android:name=".SummaryActivity" />
         <activity android:name=".EditActivity" />
         <activity android:name=".ListActivity" />
         <activity android:name=".MainActivityLogged" />
