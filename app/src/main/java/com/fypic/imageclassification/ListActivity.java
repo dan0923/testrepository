@@ -177,5 +177,7 @@ public class ListActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+        Intent intent=new Intent(ListActivity.this, MainActivityLogged.class);
+        startActivity(intent);
     }
 }
