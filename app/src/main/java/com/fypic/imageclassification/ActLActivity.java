@@ -10,10 +10,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActLActivity extends AppCompatActivity {
-    private static String usern;
     private static boolean loggedin;
     DatabaseHelper db;
-    Button b1,b2;
+    Button b1;
     EditText t1,t2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +30,6 @@ public class ActLActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String user = t1.getText().toString();
                 String pass = t2.getText().toString();
-                usern = t1.getText().toString();
 
 
                 if (db.verifyUser(user, pass)) {
@@ -52,11 +50,6 @@ public class ActLActivity extends AppCompatActivity {
         });
 
     }
-
-    public static String getUser() {
-        return usern;
-    }
-
     public static boolean getLoginStatus() {
         return loggedin;
     }

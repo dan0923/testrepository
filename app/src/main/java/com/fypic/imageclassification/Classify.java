@@ -34,6 +34,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
 
+import static com.fypic.imageclassification.ActLActivity.getLoginStatus;
+
 public class Classify extends AppCompatActivity {
 
     // presets for rgb conversion
@@ -141,7 +143,7 @@ public class Classify extends AppCompatActivity {
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (ActLActivity.getLoginStatus() == true) {
+                if (getLoginStatus() == true) {
                     Intent i = new Intent(Classify.this, MainActivityLogged.class);
                     startActivity(i);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
@@ -179,11 +181,17 @@ public class Classify extends AppCompatActivity {
             public void onClick(View view) {
                 if (Material.getText().toString().length() < 1) {
                     Toast.makeText(Classify.this, "Classify First!", Toast.LENGTH_SHORT).show();
-                }
-
-                else {
+                } else {
                     db.addObjects(Material.getText().toString());
                     Toast.makeText(Classify.this, "Object Added!", Toast.LENGTH_SHORT).show();
+                    if(!getLoginStatus()){
+                        Intent intent = new Intent(Classify.this, MainActivity.class);
+                        startActivity(intent);
+                    }else{
+                        Intent intent = new Intent(Classify.this, ListActivity.class);
+                        startActivity(intent);
+                    }
+
                 }
             }
         });
