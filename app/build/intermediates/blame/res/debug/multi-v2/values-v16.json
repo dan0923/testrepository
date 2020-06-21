@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mdsha\\OneDrive\\Documents\\School Stuff\\C346\\Workspace\\FYP\\fimageclassificationv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\18015732\\AndroidStudioProjects\\fyptest6\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mdsha\\.gradle\\caches\\transforms-2\\files-2.1\\7266ea587dda51fe69da0ff817954fee\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\7dbd4af629282ff9f506d0dfa01e3f3b\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mdsha\\.gradle\\caches\\transforms-2\\files-2.1\\29b198f8e9888b8b00e9ab90143c54c3\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\a3981f2a8464f6ee971539663240e902\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
