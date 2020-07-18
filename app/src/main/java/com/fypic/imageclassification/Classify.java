@@ -171,11 +171,26 @@ public class Classify extends AppCompatActivity {
                 tflite.run(imgData, labelProbArray);
                 // display the results
                 printTopKLabels();
+                if (Material.getText().toString().length() < 1) {
+
+                } else {
+                    db.addObjects(Material.getText().toString());
+                    Toast.makeText(Classify.this, "Object Added!", Toast.LENGTH_SHORT).show();
+                    if(!getLoginStatus()){
+                        Intent intent = new Intent(Classify.this, MainActivity.class);
+                        startActivity(intent);
+                    }else{
+                        Intent intent = new Intent(Classify.this, ListActivity.class);
+                        startActivity(intent);
+                    }
+
+                }
+
             }
         });
 
         // add object
-        add_button = (Button)findViewById(R.id.add_object);
+        /*add_button = (Button)findViewById(R.id.add_object);
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -194,7 +209,7 @@ public class Classify extends AppCompatActivity {
 
                 }
             }
-        });
+        });*/
 
         // get image from previous activity to show in the imageView
         Uri uri = (Uri)getIntent().getParcelableExtra("resID_uri");
@@ -277,6 +292,8 @@ public class Classify extends AppCompatActivity {
         Material.setText(topLables[3]);
         Confidence.setText(topConfidence[3]);
         ItemId.setText(Integer.toString(db.getMatAllCount() + 1));
+        String info="Material: "+Material.getText().toString()+"\nConfidence: "+Confidence.getText().toString()+"\nItem ID: "+ItemId.getText().toString();
+        Toast.makeText(Classify.this,info,Toast.LENGTH_LONG).show();
     }
 
 
