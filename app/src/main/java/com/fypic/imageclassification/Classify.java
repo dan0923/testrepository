@@ -69,7 +69,7 @@ public class Classify extends AppCompatActivity {
     private int DIM_IMG_SIZE_Y = 224;
     private int DIM_PIXEL_SIZE = 3;
 
-    // int array to hold image data
+    // int array to hold image dat
     private int[] intValues;
 
     // activity elements
