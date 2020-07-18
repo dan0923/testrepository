@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mdsha\\OneDrive\\Documents\\School Stuff\\C346\\Workspace\\FYP\\fimageclassificationv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "C:\\Users\\18015732\\AndroidStudioProjects\\fyptest7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mdsha\\.gradle\\caches\\transforms-2\\files-2.1\\7266ea587dda51fe69da0ff817954fee\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\7dbd4af629282ff9f506d0dfa01e3f3b\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mdsha\\OneDrive\\Documents\\School Stuff\\C346\\Workspace\\FYP\\fimageclassificationv2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\18015732\\AndroidStudioProjects\\fyptest7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mdsha\\.gradle\\caches\\transforms-2\\files-2.1\\7266ea587dda51fe69da0ff817954fee\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\7dbd4af629282ff9f506d0dfa01e3f3b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mdsha\\.gradle\\caches\\transforms-2\\files-2.1\\b49f81c5095a6e700c12192359e10dc7\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\341eaa785c946f958e6f0b2574ce53d5\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
