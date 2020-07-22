@@ -43,40 +43,64 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/aiinstruction1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Click on 'AI' to access the camera"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_light"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
     <Button
         android:id="@+id/AIButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="25sp"
-        android:layout_marginTop="50dp"
         android:layout_marginRight="25sp"
-        android:background="@drawable/roundedbutton"
-        android:fontFamily="@font/proxima_nova_regular"
-        android:gravity="center"
-        android:onClick="aiClick"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="10dp"
         android:padding="16sp"
-        android:text="AI Detection           (Please Click Here to Start)"
-        android:textAllCaps = "false"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:background="@drawable/roundedbutton"
+        android:onClick="aiClick"
+        android:gravity="center"
+        android:text="AI"
         android:textColor="#000000"
         android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/aiinstruction2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Click on 'Superuser Login' to access admin privileges"
+        android:fontFamily="@font/proxima_nova_light"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
     <Button
         android:id="@+id/loginbtn"
-        android:layout_width="346dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="25sp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="25sp"
         android:background="@drawable/roundedbutton"
         android:fontFamily="@font/proxima_nova_regular"
         android:gravity="center"
         android:padding="16sp"
-        android:text="Superuser Login         (For Admin Only)"
+        android:text="Superuser Login"
         android:textAllCaps="false"
         android:textColor="#000000"
-        android:textSize="28sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -91,7 +115,5 @@
         android:layout_height="149dp"
         android:text="TextView"
         android:visibility="invisible" />
-
-
 
 </LinearLayout>

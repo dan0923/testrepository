@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="fyptest8/app" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-fimageclassificationv2.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-fimageclassificationv2.iml" group="fimageclassificationv2" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="fimageclassificationv2/app" />
       <module fileurl="file://$PROJECT_DIR$/fimageclassificationv2.iml" filepath="$PROJECT_DIR$/fimageclassificationv2.iml" group="fimageclassificationv2" />
       <module fileurl="file://$PROJECT_DIR$/fyptest6.iml" filepath="$PROJECT_DIR$/fyptest6.iml" group="fyptest6" />
-      <module fileurl="file://$PROJECT_DIR$/fyptest8.iml" filepath="$PROJECT_DIR$/fyptest8.iml" group="fyptest8" />
     </modules>
   </component>
 </project>
