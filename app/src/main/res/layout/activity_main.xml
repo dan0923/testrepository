@@ -47,22 +47,23 @@
         android:id="@+id/AIButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="25sp"
+        android:layout_gravity="center"
         android:layout_marginLeft="25sp"
         android:layout_marginTop="50dp"
-        android:padding="16sp"
-        android:layout_gravity="center"
-        android:fontFamily="@font/proxima_nova_regular"
+        android:layout_marginRight="25sp"
         android:background="@drawable/roundedbutton"
-        android:onClick="aiClick"
+        android:fontFamily="@font/proxima_nova_regular"
         android:gravity="center"
-        android:text="AI"
+        android:onClick="aiClick"
+        android:padding="16sp"
+        android:text="AI Detection           (Please Click Here to Start)"
+        android:textAllCaps = "false"
         android:textColor="#000000"
         android:textSize="30sp" />
 
     <Button
         android:id="@+id/loginbtn"
-        android:layout_width="match_parent"
+        android:layout_width="346dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="25sp"
@@ -72,10 +73,10 @@
         android:fontFamily="@font/proxima_nova_regular"
         android:gravity="center"
         android:padding="16sp"
-        android:text="Superuser Login"
+        android:text="Superuser Login         (For Admin Only)"
         android:textAllCaps="false"
         android:textColor="#000000"
-        android:textSize="30sp" />
+        android:textSize="28sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -90,5 +91,7 @@
         android:layout_height="149dp"
         android:text="TextView"
         android:visibility="invisible" />
+
+
 
 </LinearLayout>

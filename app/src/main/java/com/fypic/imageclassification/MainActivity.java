@@ -12,7 +12,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -71,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     REQUEST_PERMISSION);
         }
 
+
         // on click for inception float model
         inceptionFloat = (Button)findViewById(R.id.AIButton);
         inceptionFloat.setOnClickListener(new View.OnClickListener() {
@@ -80,8 +80,13 @@ public class MainActivity extends AppCompatActivity {
                 chosen = "model2.tflite";
                 // open camera
                 openCameraIntent();
+                openDialog();
             }
         });
+    }
+    public void openDialog(){
+        DialogBox exampleDialog = new DialogBox();
+        exampleDialog.show(getSupportFragmentManager(), "example dialog");
     }
 
     // opens camera for user
@@ -97,8 +102,12 @@ public class MainActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         // start camera, and wait for it to finish
         startActivityForResult(intent, REQUEST_IMAGE);
+        openDialog2();
     }
-
+    public void openDialog2(){
+        DialogBox2 exampleDialog = new DialogBox2();
+        exampleDialog.show(getSupportFragmentManager(), "example dialog");
+    }
     // checks that the user has allowed all the required permission of read and write and camera. If not, notify the user and close the application
     @Override
     public void onRequestPermissionsResult(final int requestCode, @NonNull final String[] permissions, @NonNull final int[] grantResults) {
@@ -125,7 +134,9 @@ public class MainActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+
         }
+
 
         // if cropping acitivty is finished, get the resulting cropped image uri and send it to 'Classify' activity
         else if(requestCode == Crop.REQUEST_CROP && resultCode == RESULT_OK){
@@ -141,6 +152,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 
     @Override
     public void onBackPressed() {
