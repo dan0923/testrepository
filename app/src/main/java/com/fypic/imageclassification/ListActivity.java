@@ -26,14 +26,15 @@ import java.util.List;
 import java.util.Locale;
 
 
-public class ListActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+public class ListActivity extends AppCompatActivity{
 
     DatabaseHelper db;
     private ListView lv;
-    int fl;
-    int sl;
+    int material_id;
+    int object_id;
     String dateStr;
     Button allBtn,paperBtn, metalBtn, plasticBtn, wasteBtn, summaryBtn, dateBtn;
+    ArrayList<Object> dateObj = new ArrayList<>();
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +48,9 @@ public class ListActivity extends AppCompatActivity implements DatePickerDialog.
         wasteBtn = findViewById(R.id.wasteBtn);
         summaryBtn = findViewById(R.id.summarybutton);
         dateBtn = findViewById(R.id.dateBtn);
+
+        TextView emptyText = (TextView)findViewById(android.R.id.empty);
+        lv.setEmptyView(emptyText);
 
         Cursor data = db.getData();
         Cursor alldata = db.getAllData();
@@ -63,57 +67,82 @@ public class ListActivity extends AppCompatActivity implements DatePickerDialog.
         ArrayList<Object> wasteObj = new ArrayList<>();
 
         while (data.moveToNext()) {
-            fl = data.getInt(1);
-            sl = data.getInt(0);
+            material_id = data.getInt(1);
+            object_id = data.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             listObj.add(obj);
         }
 
         while (alldata.moveToNext()) {
-            fl = alldata.getInt(1);
-            sl = alldata.getInt(0);
+            material_id = alldata.getInt(1);
+            object_id = alldata.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             allObj.add(obj);
         }
 
         while (paperdata.moveToNext()) {
-            fl = paperdata.getInt(1);
-            sl = paperdata.getInt(0);
+            material_id = paperdata.getInt(1);
+            object_id = paperdata.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             paperObj.add(obj);
         }
 
         while (metaldata.moveToNext()) {
-            fl = metaldata.getInt(1);
-            sl = metaldata.getInt(0);
+            material_id = metaldata.getInt(1);
+            object_id = metaldata.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             metalObj.add(obj);
         }
 
         while (plasticdata.moveToNext()) {
-            fl = plasticdata.getInt(1);
-            sl = plasticdata.getInt(0);
+            material_id = plasticdata.getInt(1);
+            object_id = plasticdata.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             plasticObj.add(obj);
         }
 
         while (wastedata.moveToNext()) {
-            fl = wastedata.getInt(1);
-            sl = wastedata.getInt(0);
+            material_id = wastedata.getInt(1);
+            object_id = wastedata.getInt(0);
 
-            Object obj = new Object(sl, fl);
+            Object obj = new Object(object_id, material_id);
             wasteObj.add(obj);
         }
 
+        Intent intent = getIntent();
+        dateStr = intent.getStringExtra("datestr");
 
         ObjListAdapter adapter;
 
-        adapter = new ObjListAdapter(this, R.layout.adap_layout, listObj);
+        if (dateStr == null) {
+            adapter = new ObjListAdapter(this, R.layout.adap_layout, listObj);
+        }
+
+        else {
+            Cursor datedata = db.getDataByDate(dateStr);
+
+            if (datedata == null) {
+                return;
+            }
+
+            else {
+                while (datedata.moveToNext()) {
+                    material_id = datedata.getInt(1);
+                    object_id = datedata.getInt(0);
+
+                    Object obj = new Object(object_id, material_id);
+                    dateObj.add(obj);
+                }
+            }
+
+            adapter = new ObjListAdapter(this, R.layout.adap_layout, dateObj);
+        }
+
         lv.setAdapter(adapter);
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -176,8 +205,9 @@ public class ListActivity extends AppCompatActivity implements DatePickerDialog.
         dateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                DialogFragment datePicker = new DatePickerFragment();
-                datePicker.show(getSupportFragmentManager(), "date picker");
+                Intent intent = new Intent(ListActivity.this, DatePickActivity.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
 
@@ -189,16 +219,6 @@ public class ListActivity extends AppCompatActivity implements DatePickerDialog.
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
             }
         });
-    }
-
-    @Override
-    public void onDateSet(DatePicker datePicker, int year, int month, int dayOfMonth) {
-        Calendar c = Calendar.getInstance();
-        c.set(Calendar.YEAR, year);
-        c.set(Calendar.MONTH, month);
-        c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-        String currentDateString = DateFormat.getDateInstance(DateFormat.SHORT, Locale.JAPAN).format(c.getTime());
-        dateStr = currentDateString.replace("/","-");;
     }
 
     @Override

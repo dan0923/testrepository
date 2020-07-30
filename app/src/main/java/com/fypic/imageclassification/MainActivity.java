@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -42,8 +43,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         DatabaseHelper db;
 
+        chosen = "model2.tflite";
+
         Button login = findViewById(R.id.loginbtn);
 
+        Intent receivedIntent = getIntent();
+        int camSwitch = receivedIntent.getIntExtra("camSwitch",0);
+
+        if (camSwitch == 1){
+            openCameraIntent();
+        }
 
         login.setOnClickListener(v -> {
             Intent intent=new Intent(this, ActLActivity.class);
@@ -52,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // request permission to use the camera on the user's phone
-        if (ActivityCompat.checkSelfPermission(this.getApplicationContext(), android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-            ActivityCompat.requestPermissions(this, new String[] {android.Manifest.permission.CAMERA}, REQUEST_PERMISSION);
+        if (ActivityCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, REQUEST_PERMISSION);
         }
 
         // request permission to write data (aka images) to the user's external storage of their phone
@@ -70,23 +79,15 @@ public class MainActivity extends AppCompatActivity {
                     REQUEST_PERMISSION);
         }
 
-
         // on click for inception float model
         inceptionFloat = (Button)findViewById(R.id.AIButton);
         inceptionFloat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // filename in assets
-                chosen = "model2.tflite";
-                // open camera
-                openCameraIntent();
-                openDialog();
+                    Intent intentInstruct = new Intent(MainActivity.this, FadeActivity.class);
+                    startActivity(intentInstruct);
             }
         });
-    }
-    public void openDialog(){
-        DialogBox exampleDialog = new DialogBox();
-        exampleDialog.show(getSupportFragmentManager(), "example dialog");
     }
 
     // opens camera for user
@@ -99,15 +100,11 @@ public class MainActivity extends AppCompatActivity {
                 MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         // start camera, and wait for it to finish
         startActivityForResult(intent, REQUEST_IMAGE);
-        openDialog2();
     }
-    public void openDialog2(){
-        DialogBox2 exampleDialog = new DialogBox2();
-        exampleDialog.show(getSupportFragmentManager(), "example dialog");
-    }
+
     // checks that the user has allowed all the required permission of read and write and camera. If not, notify the user and close the application
     @Override
     public void onRequestPermissionsResult(final int requestCode, @NonNull final String[] permissions, @NonNull final int[] grantResults) {
@@ -134,9 +131,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
         }
-
 
         // if cropping acitivty is finished, get the resulting cropped image uri and send it to 'Classify' activity
         else if(requestCode == Crop.REQUEST_CROP && resultCode == RESULT_OK){
@@ -152,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-
 
     @Override
     public void onBackPressed() {

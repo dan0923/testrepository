@@ -46,6 +46,15 @@ public class MainActivityLogged extends AppCompatActivity {
         Button logout = findViewById(R.id.logout);
         Button viewData = findViewById(R.id.button7);
 
+        chosen = "model2.tflite";
+
+        Intent receivedIntent = getIntent();
+        int camSwitch = receivedIntent.getIntExtra("camSwitch",0);
+
+        if (camSwitch == 1){
+            openCameraIntent();
+        }
+
         viewData.setOnClickListener(v -> {
             Intent intent=new Intent(this, ListActivity.class);
             startActivity(intent);
@@ -61,8 +70,8 @@ public class MainActivityLogged extends AppCompatActivity {
         });
 
         // request permission to use the camera on the user's phone
-        if (ActivityCompat.checkSelfPermission(this.getApplicationContext(), android.Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
-            ActivityCompat.requestPermissions(this, new String[] {android.Manifest.permission.CAMERA}, REQUEST_PERMISSION);
+        if (ActivityCompat.checkSelfPermission(this.getApplicationContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA}, REQUEST_PERMISSION);
         }
 
         // request permission to write data (aka images) to the user's external storage of their phone
@@ -84,10 +93,8 @@ public class MainActivityLogged extends AppCompatActivity {
         inceptionFloat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // filename in assets
-                chosen = "model2.tflite";
-                // open camera
-                openCameraIntent();
+                Intent intentInstruct = new Intent(MainActivityLogged.this, FadeActivity.class);
+                startActivity(intentInstruct);
             }
         });
     }
