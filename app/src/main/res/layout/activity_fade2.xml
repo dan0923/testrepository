@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient">
+
+
+    <TextView
+        android:id="@+id/aiinstruction7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Once you have completed those steps, click on 'Classify' to confirm the item and you've scanned."
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_light"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/aiinstruction8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="If you think the recyclable could be washed before recycling, you are welcome to do so."
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_light"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/aiinstruction9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Finally, dispose your scanned item into the correct bin."
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_light"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/aiinstruction10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Have fun recycling!"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ContButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="25sp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/proxima_nova_regular"
+        android:gravity="center"
+        android:padding="16sp"
+        android:text="Let's start!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

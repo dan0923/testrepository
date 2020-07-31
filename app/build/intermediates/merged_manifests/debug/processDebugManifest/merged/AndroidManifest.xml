@@ -29,6 +29,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.fypic.imageclassification.DatePickActivity" />
         <activity
             android:name="com.fypic.imageclassification.SummaryActivity"
             android:label="@string/app_name"
@@ -47,6 +48,14 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.fypic.imageclassification.ActLActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.FadeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fypic.imageclassification.FadeActivity2"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity

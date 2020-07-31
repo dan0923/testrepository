@@ -9,8 +9,7 @@
     <uses-feature
         android:name="android.hardware.camera.any"
         android:required="true" />
-    <uses-feature
-        android:name="android.hardware.screen.portrait" />
+    <uses-feature android:name="android.hardware.screen.portrait" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -24,22 +23,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".SummaryActivity"
+        <activity android:name=".DatePickActivity"></activity>
+        <activity
+            android:name=".SummaryActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".EditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivityLogged"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivityLogged"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".ActLActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActLActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FadeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FadeActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,13 +61,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Classify"
+        <activity
+            android:name=".Classify"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"/> <!-- cropping activity -->
+            android:screenOrientation="portrait" /> <!-- cropping activity -->
         <activity
             android:name="com.soundcloud.android.crop.CropImageActivity"
             android:screenOrientation="portrait" />
     </application>
-
 
 </manifest>
