@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\fimageclassificationvfinal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\18015732\\AndroidStudioProjects\\fyptest10\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\7f7347e2e337829b52ce86e46b5e93fb\\res\\values-large-v4\\values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,580,684",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,679,795"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\494e544869a8a92dfd60e452d570bff0\\res\\values-large\\values-large.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\10766e77463840bfa22b386b9e86cd2e\\res\\values-large\\values-large.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\2e3a5376fa390aee52a569a5c8fad15b\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\7dbd4af629282ff9f506d0dfa01e3f3b\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,580,684",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,679,795"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\341eaa785c946f958e6f0b2574ce53d5\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

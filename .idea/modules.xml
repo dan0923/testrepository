@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="fimageclassificationvfinal/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="fyptest10/app" />
       <module fileurl="file://$PROJECT_DIR$/fimageclassificationv2.iml" filepath="$PROJECT_DIR$/fimageclassificationv2.iml" group="fimageclassificationv2" />
-      <module fileurl="file://$PROJECT_DIR$/fimageclassificationvfinal.iml" filepath="$PROJECT_DIR$/fimageclassificationvfinal.iml" group="fimageclassificationvfinal" />
+      <module fileurl="file://$PROJECT_DIR$/fyptest10.iml" filepath="$PROJECT_DIR$/fyptest10.iml" group="fyptest10" />
       <module fileurl="file://$PROJECT_DIR$/fyptest6.iml" filepath="$PROJECT_DIR$/fyptest6.iml" group="fyptest6" />
     </modules>
   </component>
