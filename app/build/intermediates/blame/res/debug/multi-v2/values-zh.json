@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\18015732\\AndroidStudioProjects\\fyptest9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "D:\\fimageclassificationvfinal\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\18015732\\.gradle\\caches\\transforms-2\\files-2.1\\10766e77463840bfa22b386b9e86cd2e\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\18015497\\.gradle\\caches\\transforms-2\\files-2.1\\494e544869a8a92dfd60e452d570bff0\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "4,5,6,7,8",
                         "startColumns": "4,4,4,4,4",

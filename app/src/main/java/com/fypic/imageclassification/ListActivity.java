@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Locale;
 
 
-public class ListActivity extends AppCompatActivity{
+public class ListActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
     DatabaseHelper db;
     private ListView lv;
@@ -48,6 +48,8 @@ public class ListActivity extends AppCompatActivity{
         wasteBtn = findViewById(R.id.wasteBtn);
         summaryBtn = findViewById(R.id.summarybutton);
         dateBtn = findViewById(R.id.dateBtn);
+
+        DialogFragment datePicker = new DatePickerFragment();
 
         TextView emptyText = (TextView)findViewById(android.R.id.empty);
         lv.setEmptyView(emptyText);
@@ -205,9 +207,7 @@ public class ListActivity extends AppCompatActivity{
         dateBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ListActivity.this, DatePickActivity.class);
-                startActivity(intent);
-                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                datePicker.show(getSupportFragmentManager(), "date picker");
             }
         });
 
@@ -227,5 +227,20 @@ public class ListActivity extends AppCompatActivity{
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
         Intent intent=new Intent(ListActivity.this, MainActivityLogged.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onDateSet(DatePicker datePicker, int year, int month, int dayOfMonth) {
+        Calendar c = Calendar.getInstance();
+        c.set(Calendar.YEAR, year);
+        c.set(Calendar.MONTH, month);
+        c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+        String currentDateString = DateFormat.getDateInstance(DateFormat.SHORT, Locale.JAPAN).format(c.getTime());
+        String dateStr = currentDateString.replace("/","-");
+
+        Intent resultIntent = new Intent(ListActivity.this, ListActivity.class);
+        resultIntent.putExtra("datestr", dateStr);
+        startActivity(resultIntent);
+        overridePendingTransition(0,0);
     }
 }
