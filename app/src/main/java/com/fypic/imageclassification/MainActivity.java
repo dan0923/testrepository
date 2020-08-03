@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         DatabaseHelper db;
 
-        chosen = "model2.tflite";
+        chosen = "model.tflite";
 
         Button login = findViewById(R.id.loginbtn);
 

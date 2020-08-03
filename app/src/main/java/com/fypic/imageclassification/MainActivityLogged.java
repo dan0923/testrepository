@@ -46,7 +46,7 @@ public class MainActivityLogged extends AppCompatActivity {
         Button logout = findViewById(R.id.logout);
         Button viewData = findViewById(R.id.button7);
 
-        chosen = "model2.tflite";
+        chosen = "model.tflite";
 
         Intent receivedIntent = getIntent();
         int camSwitch = receivedIntent.getIntExtra("camSwitch",0);
