@@ -55,8 +55,8 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int crop__activity_crop = 0x7f0c0027;
-        public static final int crop__layout_done_cancel = 0x7f0c0028;
+        public static final int crop__activity_crop = 0x7f0c0026;
+        public static final int crop__layout_done_cancel = 0x7f0c0027;
     }
     public static final class string {
         private string() {}

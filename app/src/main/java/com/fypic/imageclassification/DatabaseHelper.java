@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteStatement;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
-    private static final String DB_NAME= "sqllitetest";
-    private static final int DB_VERSION = 2;
+    private static final String DB_NAME= "database";
+    private static final int DB_VERSION = 1;
 
     public DatabaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);

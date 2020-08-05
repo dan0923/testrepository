@@ -127,18 +127,12 @@ public class ListActivity extends AppCompatActivity {
 
         else {
             Cursor datedata = db.getDataByDate(dateStr);
-            if (datedata == null) {
-                return;
-            }
-
-            else {
                 while (datedata.moveToNext()) {
                     material_id = datedata.getInt(1);
                     object_id = datedata.getInt(0);
 
                     Object obj = new Object(object_id, material_id);
                     dateObj.add(obj);
-                }
             }
 
             adapter = new ObjListAdapter(this, R.layout.adap_layout, dateObj);

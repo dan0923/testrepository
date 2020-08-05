@@ -31,7 +31,7 @@ public class ObjListAdapter extends ArrayAdapter<Object> {
     }
 
     /**
-     * Default constructor for the PersonListAdapter
+     * Default constructor for the ObjectListAdapter
      * @param context
      * @param resource
      * @param objects
@@ -45,12 +45,12 @@ public class ObjListAdapter extends ArrayAdapter<Object> {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        //get the persons information
+        //get the object information
         int id = getItem(position).getId();
         int matid = getItem(position).getMatId();
 
 
-        //Create the person object with the information
+        //Create the object with the information
         Object obj = new Object(id,matid);
 
         //create the view result for showing the animation

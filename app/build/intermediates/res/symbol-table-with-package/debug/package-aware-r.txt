@@ -1462,7 +1462,6 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_act_l
 layout activity_classify
-layout activity_date_pick
 layout activity_edit
 layout activity_fade
 layout activity_fade2
