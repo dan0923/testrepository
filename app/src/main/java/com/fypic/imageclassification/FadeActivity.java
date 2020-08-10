@@ -71,6 +71,16 @@ public class FadeActivity extends AppCompatActivity {
     public void onBackPressed() {
         countDownTimer.cancel();
         stopHandler();
+
+        if (ActLActivity.getLoginStatus() == true) {
+            Intent back=new Intent(FadeActivity.this, MainActivityLogged.class);
+            startActivity(back);
+        }
+
+        else {
+            Intent back=new Intent(FadeActivity.this, MainActivity.class);
+            startActivity(back);
+        }
     }
 
 }
