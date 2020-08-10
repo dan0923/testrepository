@@ -67,4 +67,10 @@ public class FadeActivity extends AppCompatActivity {
         handler.removeMessages(0);
     }
 
+    @Override
+    public void onBackPressed() {
+        countDownTimer.cancel();
+        stopHandler();
+    }
+
 }
